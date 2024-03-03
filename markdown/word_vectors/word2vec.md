@@ -14,8 +14,9 @@
 
         Skip-gram: Skip-gramモデルでは、特定の単語を基にして、その周囲の単語（コンテキスト）を予測します。 
 
-    ![](image/1.2_cbow.png)
-    ![](image/1.2_skip_gram.png)    
+    ![cbow](../../image/1.2_cbow.png)
+
+    ![skip_gram](../../image/1.2_skip_gram.png)    
 
     1.2.1 CBOWの紹介
 
@@ -84,7 +85,7 @@
 
         2. gensimを使う
 
-        code_example_1_4_1.py
+        -> source_code/1_word2vec/code_example_1_4_1.py
 
 
     1.5 word2vec訓練のテクニック
