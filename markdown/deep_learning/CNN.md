@@ -38,6 +38,12 @@ RNN
 
     2.1 論文　[リンク](https://aclanthology.org/D14-1181.pdf)
 
-    2.2 [source code](../../source_code/deep_learning/text-CNN.py)
+    2.2 ストラクチャー
 
-3. 
+    ![structure](../../image/Deep_learning/textCNN.png)
+    
+    [source code](../../source_code/deep_learning/text-CNN.py)
+
+3. その他
+
+    https://qiita.com/donaldchi/items/321d96ced569d6b8389d

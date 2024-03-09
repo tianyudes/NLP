@@ -34,6 +34,8 @@
     固定表現を用いた単語ベクトル：一語多義などの問題を解決できません。
 
     => elmo、GPT、bert
+    
+    => METB: https://huggingface.co/spaces/mteb/leaderboard
 
 
 

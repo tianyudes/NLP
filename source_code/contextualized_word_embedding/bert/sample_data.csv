@@ -1,0 +1,11 @@
+,premise,hypothesis,label,idx
+0,"Collective bargaining will win doctors higher pay, resulting in higher costs for patients.",Collective bargaining will result in higher healthcare costs.,entailment,230451
+1,(observable and unobservable characteristics) of the household.,The household has witnessed both observable and unobservable characteristics.,entailment,348992
+2,"At the same time that the picture was winning an international critics' prize at the Cannes Film Festival (where it was shown outside the main competition), Universal, the studio that financed it (through its recently acquired indie wing, October), unloaded it in a panic--largely because its new owners, the Bronfmans of Seagram, feared being associated with a movie that featured a pedophile.",Universal panicked when they released the film because it featured a crocodile. ,contradiction,104408
+3,"If she had any of her other previous abilities, she never spoke of it and they saw no signs.",She showed no signs of the powers she once had. ,entailment,206205
+4,"Yes, altogether I was mistaken. ",I was completely correct,contradiction,176521
+5,"Simple brick homes stand row upon row and archaeologists found a wealth of everyday artifacts from cooking utensils to work tools, painting a vivid picture of the ancients' activities.",One of the cooking utensils the archaeologists found was a wooden spoon. ,neutral,205329
+6,What they won't mention is that the reason Clinton didn't lose those seats in his sixth year is that he lost them in his second.,Clinton gained seats in both his second and sixth years.,contradiction,135229
+7,They are as beautiful of the stars.,They have beautiful features and soft hair.,neutral,121101
+8,None of these buildings are open to the public.,Anyone can go in the building.,contradiction,174822
+9,"On the opposite side of the courtyard of the masks (named after the design of two fountains), the Salones Reales (apartments of Felipe II) are modest in comforts, but rich in artworks.",The Salones Reales houses many artworks but has few other amenities.,entailment,65625
