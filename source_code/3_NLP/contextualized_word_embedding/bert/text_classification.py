@@ -1,10 +1,8 @@
 from datasets import load_dataset, load_metric
 import random, datasets
 import pandas as pd
-
-task = "mnli"
-model_checkpoint="distilbert-base-uncased"
-batch_size = 16
+from transformers import AutoTokenizer
+    
 
 
 
@@ -23,15 +21,27 @@ def show_random_elements(dataset, num_examples=10):
             df[column] = df[column].transform(lambda i: typ.names[i])
     
     df.to_csv("sample_data.csv")
+
+def data_preprocessing(model_checkpoint):
+
+    tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, use_fast=True)
+
+    print(tokenizer("Hello, this one sentence!", "And this sentence goes with it."))
     
 
 if __name__ == "__main__":
+
+    task = "mnli"
+    model_checkpoint="distilbert-base-uncased"
+    batch_size = 16
 
     actual_task = "mnli" if task == "mnli-mm" else task
     dataset = load_dataset("glue", actual_task)
     metric = load_metric('glue', actual_task)
 
-    show_random_elements(dataset["train"])
+    data_preprocessing(model_checkpoint)
+
+
 
 
 
